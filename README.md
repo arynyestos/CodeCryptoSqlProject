@@ -1,4 +1,4 @@
-## SQL project
+# SQL project
 
 On this project we installed the Northwind database on Docker using MySQL, SQL Server and PostgreSQL images. Then, using Express we created a server that allowed querying the three databases.
 
