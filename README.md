@@ -63,26 +63,26 @@ This is back-end-only project, in which the main goal was to put into practice s
 To use this project, clone the repository as explained above and install the databases, following the steps below. We used DBeaver, but you can use any tool of your choice.
 1. Create a new connection:
   - Click on New Database Connection:
-  - 
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/5b5897f3-ba4f-485c-a430-e576875f8f43">
 </p>
 
   - Select the database management system of your choice, for this project we used MySQL, PostgreSQL and SQL Server:
-  - 
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/b763727b-b34c-4171-abc4-d574f7f362dd">
 </p>
 
   - Configure the port and the password:
-  - 
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/17444749-2244-4791-b2ca-c4393454b651">
 </p>
 
 2. Run the Northwind database creation script:
   - Create a new SQL script:
-  - 
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/5aeb56c1-0cca-45f0-bb56-0fc69e691f4c">
 </p>
