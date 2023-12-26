@@ -74,9 +74,6 @@ To run this project, clone the repository as explained above and install the dat
 2. Install the Northwind database on the container:   
     1. Create a new connection:
         1. Click on New Database Connection:
-<p align="center">
-  <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/5b5897f3-ba4f-485c-a430-e576875f8f43">
-</p>
 
         2. Select the database management system of your choice, for this project we used MySQL, PostgreSQL and SQL Server:
 <p align="center">
