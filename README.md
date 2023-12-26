@@ -63,23 +63,30 @@ This is back-end-only project, in which the main goal was to put into practice s
 To use this project, clone the repository as explained above and install the databases, following the steps below. We used DBeaver, but you can use any tool of your choice.
 1. Create a new connection:
   - Click on New Database Connection:
+  - 
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/5b5897f3-ba4f-485c-a430-e576875f8f43">
 </p>
+
   - Select the database management system of your choice, for this project we used MySQL, PostgreSQL and SQL Server:
+  - 
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/b763727b-b34c-4171-abc4-d574f7f362dd">
 </p>
+
   - Configure the port and the password:
+  - 
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/17444749-2244-4791-b2ca-c4393454b651">
 </p>
 
 2. Run the Northwind database creation script:
   - Create a new SQL script:
+  - 
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/5aeb56c1-0cca-45f0-bb56-0fc69e691f4c">
 </p>
+
   - Paste the [Northwind creation script](https://raw.githubusercontent.com/valoni/northwindextended/master/Northwind.MySQL5.sql) and run it.
 
 3. Run the server:
@@ -97,16 +104,19 @@ To use this project, clone the repository as explained above and install the dat
 Below you can see the screenshots of all three databases' contents displayed in JSON format in the web browser:
 
 ### MySQL database
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/eecd8381-f0f8-4460-a512-c4d54e9e19f8">
 </p>
 
 ### PostgreSQL database
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/31aefc4e-deef-4a2f-916b-4fd043d0b678">
 </p>
 
 ### SQL Server database
+
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/aa81c561-a5a1-4799-8916-f6961b25023b">
 </p>
