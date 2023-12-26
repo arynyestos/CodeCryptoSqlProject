@@ -61,12 +61,13 @@ This is back-end-only project, in which the main goal was to put into practice s
 ## Usage
 
 To run this project, clone the repository as explained above and install the databases, following the steps below. We used DBeaver, but you can use any tool of your choice. These steps are for the MySQL database, but the other two work in a similar manner.
+
 1. Launch Docker container. Use the following command to run the Docker container with the MySQL image on which we'll install the Northwind database:
    ```bash
    docker run --name sqlproject-mysql -p :3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28
    ```
 2. Install the Northwind database on the container:
-2.1. Create a new connection:
+  2.1. Create a new connection:
   - Click on New Database Connection:
 
 <p align="center">
@@ -85,7 +86,7 @@ To run this project, clone the repository as explained above and install the dat
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/17444749-2244-4791-b2ca-c4393454b651">
 </p>
 
-2.2. Run the Northwind database creation script:
+  2.2. Run the Northwind database creation script:
   - Create a new SQL script:
 
 <p align="center">
