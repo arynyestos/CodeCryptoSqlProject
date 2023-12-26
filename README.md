@@ -17,9 +17,9 @@ This is back-end-only project, in which the main goal was to put into practice s
 ## Features
 
 - Same database deployed on three different Docker containers using three different images:
-  - [MySQL](https://hub.docker.com/_/mysql)
-  - [PostgreSQL](https://hub.docker.com/_/postgres)
-  - [SQL Server](https://hub.docker.com/_/microsoft-mssql-server)
+    - [MySQL](https://hub.docker.com/_/mysql)
+    - [PostgreSQL](https://hub.docker.com/_/postgres)
+    - [SQL Server](https://hub.docker.com/_/microsoft-mssql-server)
 - Express server to query them all.
 
 ## Installation
@@ -28,18 +28,22 @@ This is back-end-only project, in which the main goal was to put into practice s
 
    ```bash
    git clone https://github.com/arynyestos/CodeCryptoSqlProject.git
+   ```
 
 2. Navigate to the project directory:
 
    ```bash
     cd CodeCryptoSqlProject
+   ```
 
 3. Install dependencies:
 
    ```bash
     yarn
+   ```
    
 4. Create .env: To run the server you will need a .env file of the like like the one in the example below.
+   
   ```.env  
   MSQL_HOST=localhost
   MSQL_USER=root
