@@ -42,7 +42,7 @@ This is back-end-only project, in which the main goal was to put into practice s
     yarn
    ```
    
-4. Create .env: To run the server you will need a .env file of the like like the one in the example below.
+4. Create .env: To run the server you will need a .env file like the one in the example below.
    
   ```.env  
   MSQL_HOST=localhost
