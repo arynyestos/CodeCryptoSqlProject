@@ -67,6 +67,7 @@ To run this project, clone the repository as explained above and install the dat
    docker run --name sqlproject-mysql -p :3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28
    ```
 2. Install the Northwind database on the container:
+   
   2.1. Create a new connection:
   - Click on New Database Connection:
 
