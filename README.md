@@ -66,10 +66,9 @@ To run this project, clone the repository as explained above and install the dat
    ```bash
    docker run --name sqlproject-mysql -p :3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28
    ```
-2. Install the Northwind database on the container:
-   
-  2.1. Create a new connection:
-  - Click on New Database Connection:
+2. Install the Northwind database on the container:   
+  1. Create a new connection:
+    1. Click on New Database Connection:
 
 <p align="center">
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/5b5897f3-ba4f-485c-a430-e576875f8f43">
@@ -87,7 +86,7 @@ To run this project, clone the repository as explained above and install the dat
   <img src="https://github.com/arynyestos/CodeCryptoSqlProject/assets/33223441/17444749-2244-4791-b2ca-c4393454b651">
 </p>
 
-  2.2. Run the Northwind database creation script:
+  2. Run the Northwind database creation script:
   - Create a new SQL script:
 
 <p align="center">
